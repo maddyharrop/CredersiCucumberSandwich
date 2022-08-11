@@ -1,0 +1,22 @@
+{
+  "name": "cucumber-sandwich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Floz-Credersi/CucumberSandwich.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Floz-Credersi/CucumberSandwich/issues"
+  },
+  "homepage": "https://github.com/Floz-Credersi/CucumberSandwich#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.1"
+  }
+}
