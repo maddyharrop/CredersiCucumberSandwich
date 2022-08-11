@@ -1,6 +1,6 @@
 # Cucumber Sandwich Solution
 Keyword and BDD web UAT with Selenium Cucumber &amp; Gherkin<br>
-If cloning, remember to `npm init` first.<br>
+If cloning, remember to `npm install` first.<br>
 
 [chromedriver](https://www.npmjs.com/package/chromedriver),
 [chromeoptions](https://chromedriver.chromium.org/capabilities),
