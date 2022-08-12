@@ -54,5 +54,13 @@ test("Location heading correct after a search", async () => {
     //
 
     const text = await element.getText();
-    expect(text).toBe(location); 
+
+    //
+    // Originally just compared text with location
+    // But weather warnings were unaccounted for!
+    // E.g., Bridgnorth - Weather warnings issued
+    // So switched to matching start of string
+    //
+    
+    expect(text.startsWith(location)).toBe(true);
 }, timeout);
